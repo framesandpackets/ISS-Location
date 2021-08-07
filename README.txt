@@ -12,4 +12,3 @@ pip install requests (if module not installed)
 
 Step 4.
 Run 'python iss_loc.py'
-![image](https://i.ibb.co/mNZnSbt/iss.jpg)
