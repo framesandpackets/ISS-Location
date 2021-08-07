@@ -7,7 +7,9 @@ j = json.loads(t)
 lat = j["iss_position"]["latitude"]
 lon = j["iss_position"]["longitude"]
 
-r_map = requests.get("https://api.opencagedata.com/geocode/v1/json?q={}+{}&key=bd49a407c01541c78557e1d80beb115b".format(lat,lon))
+key = "  "
+
+r_map = requests.get("https://api.opencagedata.com/geocode/v1/json?q={}+{}&key={}}".format(lat,lon,key))
 plot = r_map.text
 plot_p = json.loads(plot)
 
